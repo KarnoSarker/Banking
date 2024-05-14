@@ -1,4 +1,4 @@
-import Sidebar from '@/components/Sidebar';
+import { Sidebar } from 'lucide-react';
 
 export default function RootLayout({
   children,
@@ -8,7 +8,8 @@ export default function RootLayout({
   const loggedIn = { firstName: 'Karno', lastName: 'Sarker' };
   return (
     <main className='flex h-screen w-full font-inter'>
-      <Sidebar user={loggedIn} />
+      {/* <Sidebar user={loggedIn} /> */}
+      Side
       {children}
     </main>
   );

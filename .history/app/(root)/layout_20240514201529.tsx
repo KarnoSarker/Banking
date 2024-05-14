@@ -1,4 +1,4 @@
-import Sidebar from '@/components/Sidebar';
+import { Sidebar } from 'lucide-react';
 
 export default function RootLayout({
   children,
